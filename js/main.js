@@ -21,10 +21,6 @@ $(document).ready(function(){
               }]
             
         });
-
-
-
-
       $('.thomas-video img').click(function(){
           $(this).hide();
       });

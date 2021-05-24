@@ -531,3 +531,12 @@
         top: -30rem;
     }
 }
+
+@media screen and (max-width: 265px){
+    .keep-img-area {
+        max-width: 95%;
+    }
+    .col.span_1_of_2.wid2 {
+        top: -35rem;
+    }
+}
