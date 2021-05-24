@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Medcoder</title>
+</head>
+
+<body>
+
+
+
+
+
+
+    <header id="header-area">
+
+        <div class="nav-area">
+
+            <nav class="clearfix">
+                <div class="container">
+                    <div class="logo-area ">
+                        <a href="#header-area"> <img src="img/logo.svg" alt="Logo"></a>
+                    </div>
+                    <div class="main-nav">
+                        <ul>
+                            <li><a href="#header-area">For Patients</a></li>
+                            <li><a href="#fk">For Providers</a></li>
+                            <li><a href="#about">about</a></li>
+                            <li><a href="#faq">faqs</a></li>
+                            <li><a href="#blog">blogs</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="mobile-menu clearfix">
+                        <div class="bars"><i class="fas fa-bars" onclick="openNav()"></i></div>
+                        <div class="overly clearfix" id="closeopen">
+                            <a onclick="closeNav()" href="javascrept:void()"><i class="fas fa-times"></i></a>
+
+                            <div class="overly-content">
+                            <a onclick="closeNav()" href="#header-area">For Patients</a>
+                            <a onclick="closeNav()" href="#fk">For Providers</a>
+                            <a onclick="closeNav()" href="#about">about</a>
+                            <a onclick="closeNav()" href="#faq">faqs</a>
+                            <a onclick="closeNav()" href="#blog">blogs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+
+        <div class="hero-area">
+            <div class="container clearfix">
+                <div class="col span_1_of_2">
+                    <div class="hero-content wow slideInLeft">
+                        <h1 >Keep family in the loop</h1>
+                        <p class="little-description">
+                            Record and transcribe doctor visits and share securely with loved ones during complex care
+                            scenarios such as Cancer, Covid-19 and more.
+                        </p>
+                        <h2>Download Now for Free</h2>
+                        <div class="btn-img">
+                            <a href="#"><img src="img/apple.svg" alt="apple" class="apple"></a>
+                            <a href="#"><img src="img/googleplay.svg" alt="gp" class="googlepl"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span_1_of_2 hero-img">
+                    <img src="img/hero-img.png" alt="hero">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="text-slider">
+        <div class="container">
+            <div class="slider demo clearfix">
+
+                <div class="tryfix">
+                    <div class="slider-logo">
+                        <img src="img/cnbc.svg" alt="">
+                    </div>
+                    <div class="slider-cntnt">
+                        <p class="little-description">
+                            Google vet launches an app for patients to record their doctor’s notes, as more Silicon
+                            Valley execs migrate from tech to health.
+                        </p>
+                        <a href="#">Read on CNBC</a>
+                    </div>
+                </div>
+                <div class="tryfix">
+                    <div class="slider-logo">
+                        <img src="img/kim.png" alt="">
+                    </div>
+                    <div class="slider-cntnt">
+                        <p class="little-description">
+                            “This is a such great idea... it will really help people. I love this app.” </p>
+                        <p class="dwn">— Kim Komando</p>
+
+                        <a href="#">Watch on <img src="img/yt.svg" alt="yt" class="yt"></a>
+                    </div>
+                </div>
+
+                <div class="tryfix">
+                    <div class="slider-logo">
+                        <img src="img/rev.png" alt="">
+                    </div>
+                    <div class="slider-cntnt">
+                        <p class="little-description">
+                            Google vet launches an app for patients to record their doctor’s notes, as more Silicon
+                            Valley execs migrate from tech to health.
+                        </p>
+                        <a href="#">Read on CNBC</a>
+                    </div>
+                </div>
+                <div class="tryfix">
+                    <div class="slider-logo">
+                        <img src="img/kno.png" alt="">
+                    </div>
+                    <div class="slider-cntnt">
+                        <p class="little-description">
+                            Google vet launches an app for patients to record their doctor’s notes, as more Silicon
+                            Valley execs migrate from tech to health.
+                        </p>
+                        <a href="#">Read on CNBC</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <section class="medcorder clearfix" id="fk">
+        <div class="container clearfix">
+            <h2 class="h2 wow slideInLeft">Why Medcorder?</h2>
+            <div class="mtext-area col span_1_of_2">
+                <h3 class="h3 wow slideInLeft">Remember crucial details</h3>
+                <p class="little-description wow slideInLeft">Medcorder makes it simple to record and transcribe your doctor during a
+                    consultation, making it easy for you to remember their detailed instructions. <b>It’s a win-win for
+                        you and your doctor.</b></p>
+            </div>
+            <div class="img-area col span_1_of_2">
+                <img src="img/medcoder.png" alt="mdd">
+            </div>
+        </div>
+    </section>
+
+    <section class="keepinner clearfix" id="fk">
+        <div class="container clearfix">
+            <div class="col span_1_of_2 wid">
+                <div class="keep-img-area">
+                    <img src="img/keep.png" alt="keep">
+                </div>
+            </div>
+            <div class="col span_1_of_2 wid2">
+                <div class="keep-content">
+                    <h3 class="h3 wow slideInRight slider-cntnt">Keep your inner circle in the loop</h3>
+                    <p class="little-description wow slideInRight"><b>Everyone you choose to include stays connected and informed at
+                            every step, automatically</b>. Everything stays neatly organized in the Medcorder app,
+                        including appointment recordings, transcripts, post-appointment group chats, and even plans for
+                        the next appointment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="appointment clearfix" id="fk">
+        <div class="container clearfix">
+            <div class="col span_1_of_2">
+                <div class="appointment-content">
+                    <h2 class="h2 wow slideInLeft">
+                        Get the most from each appointments
+                    </h2>
+                    <p class="little-description"><b> Get play-along transcripts</b> of your recordings. Just tap a word
+                        to skip to it in the audio.
+                    </p>
+                    <p class="little-description"><b>Add future appointments</b>, prepare questions, and take notes, all
+                        in the app.</p>
+                    <p class="little-description">
+                        <b>Get helpful and timely reminders</b> to record your next appointment.
+                    </p>
+                    <p class="little-description">
+                        <b>Take notes after your visit</b>, all saved helpfully alongside the recording.
+                    </p>
+                </div>
+            </div>
+            <div class="col span_1_of_2 ryvid">
+                <div class="appointment-video">
+                    <video width="" autoplay muted loop>
+                        <source src="img/Playback Highlighting 5.mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="thomas clearfix" id="about">
+        <div class="container">
+            <div class="col span_1_of_2">
+                <div class="thomas-content">
+                    <h3 class="h3 wow slideInLeft">Meet Thomas</h3>
+                    <p class="little-description">When Thomas’s mom was admitted to the hospital with unclear symptoms,
+                        Medcorder let him and his family stay in the loop with what was happening, even thousands of
+                        miles away.</p>
+                    <p class="little-description br">
+                        Hear how Medcorder helped his family care for his mom both in and out of the hospital.
+                    </p>
+                </div>
+            </div>
+            <div class="col span_1_of_2">
+                <div class="thomas-video">
+                    <iframe width="729" height="410" src="https://www.youtube.com/embed/dhxQnwjJbqQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                    <img src="img/rltn.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="people-saying clearfix" id="about">
+        <div class="container">
+            <h2 class="h2 wow slideInLeft">What people are saying</h2>
+            <div class="slider people">
+                <div class="slider-single">
+
+                    <div class="img-area">
+                        <img src="img/uc.png" alt="uc">
+                    </div>
+                    <div class="people-slider-content">
+                        <p class="little-description">We knew everything they did, without my sister-in-law having to
+                            remember it all and repeat it to us. It was wonderful! Everyone could keep up with the
+                            situation. Then, the best part!! We got to hear my brother's voice! Best moment ever!</p>
+
+                        <h5>Julie W.</h5>
+                    </div>
+
+                </div>
+                <div class="slider-single">
+
+                    <div class="img-area">
+                        <img src="img/uc.png" alt="uc">
+                    </div>
+                    <div class="people-slider-content">
+                        <p class="little-description">We knew everything they did, without my sister-in-law having to
+                            remember it all and repeat it to us. It was wonderful! Everyone could keep up with the
+                            situation. Then, the best part!! We got to hear my brother's voice! Best moment ever!</p>
+
+                        <h5>Julie W.</h5>
+                    </div>
+
+                </div>
+                <div class="slider-single">
+
+                    <div class="img-area">
+                        <img src="img/uc.png" alt="uc">
+                    </div>
+                    <div class="people-slider-content">
+                        <p class="little-description">We knew everything they did, without my sister-in-law having to
+                            remember it all and repeat it to us. It was wonderful! Everyone could keep up with the
+                            situation. Then, the best part!! We got to hear my brother's voice! Best moment ever!</p>
+
+                        <h5>Julie W.</h5>
+                    </div>
+
+                </div>
+                <div class="slider-single">
+
+                    <div class="img-area">
+                        <img src="img/uc.png" alt="uc">
+                    </div>
+                    <div class="people-slider-content">
+                        <p class="little-description">We knew everything they did, without my sister-in-law having to
+                            remember it all and repeat it to us. It was wonderful! Everyone could keep up with the
+                            situation. Then, the best part!! We got to hear my brother's voice! Best moment ever!</p>
+
+                        <h5>Julie W.</h5>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="common-qus clearfix" id="faq">
+
+        <div class="container">
+            <h2 class="h2 wow slideInRight">Common Questions</h2>
+            <div class="record">
+                <div class="col span_1_of_2">
+                    <div class="record-img">
+                        <img src="img/record.svg" alt="reco">
+                    </div>
+                </div>
+                <div class="col span_1_of_2">
+                    <div class="record-content">
+                        <h2 class="h2 mbn wow slideInRight">Why record?</h2>
+                        <p class="little-description wow slideInRight">
+                            <b>Patients remember only about 10% of the content of their doctor’s appointment by the
+                                nextday, and doctors speak at about 130 words per minute.</b>
+                            <p class="little-description wow slideInRight">Doctor conversations can be stressful and
+                                overwhelming,especially during a serious medical situation, making it difficult to
+                                accurately remember everything discussed. Having a recording of what the doctor said can
+                                help patients better retain important information, gain a better understanding of
+                                options, and make the best decisions possible.</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ok clearfix">
+
+                <div class="col span_1_of_2">
+                    <div class="record-content">
+                        <h2 class="h2 mbn wow slideInLeft">Is recording OK?</h2>
+                        <p class="little-description wow slideInLeft">
+                            <b>Patients remember only about 10% of the content of their doctor’s appointment by the next
+                                day, and doctors speak at about 130 words per minute.</b>
+                            <p class="little-description wow slideInLeft">Doctor conversations can be stressful and overwhelming,
+                                especially during a serious medical situation, making it difficult to accurately
+                                remember everything discussed. Having a recording of what the doctor said can help
+                                patients better retain important information, gain a better understanding of options,and
+                                make the best decisions possible.</p>
+                        </p>
+                    </div>
+                </div>
+                <div class="col span_1_of_2">
+                    <div class="record-img">
+                        <img src="img/ok.svg" alt="reco">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="medcoder-help clearfix" id="blog">
+        <div class="container">
+            <div class="all-card clearfix">
+                <div class="single-card col span_1_of_3">
+                    <div class="card-t wow slideInLeft">
+                        <div class="card-img-area">
+                            <img src="img/cart1.jpg" alt="">
+                        </div>
+                        <h4>Making sure you remember what the doctor said.</h4>
+                    </div>
+                </div>
+                <div class="single-card col span_1_of_3">
+                    <div class="card-t wow slideInDown">
+                        <div class="card-img-area">
+                            <img src="img/cart2.jpg" alt="">
+                        </div>
+                        <h4>Making sure you remember what the doctor said.</h4>
+                    </div>
+                </div>
+                <div class="single-card col span_1_of_3">
+                    <div class="card-t wow slideInRight">
+                        <div class="card-img-area">
+                            <img src="img/carte3.jpg" alt="">
+                        </div>
+                        <h4>Making sure you remember what the doctor said.</h4>
+                    </div>
+                </div>
+                <div class="single-card col span_1_of_3">
+                    <div class="card-t wow slideInLeft">
+                        <div class="card-img-area">
+                            <img src="img/cart4.jpg" alt="">
+                        </div>
+                        <h4>Making sure you remember what the doctor said.</h4>
+                    </div>
+                </div>
+                <div class="single-card col span_1_of_3">
+                    <div class="card-t wow slideInRight">
+                        <div class="card-img-area">
+                            <img src="img/cart5.jpg" alt="">
+                        </div>
+                        <h4>Making sure you remember what the doctor said.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="some-going clearfix" id="blog">
+        <div class="container clearfix">
+            <div class="text-area">
+                <h2 class="h2 wow slideInLeft">Know someone going through a difficult medical situation?</h2>
+                <p class="little-description">Medcorder can help you stay involved with your loved one’s health and
+                    medical care.
+                </p>
+                <p class="little-description mtk">
+                    <a href="#">Download</a> the app and invite your loved one to use Medcorder to record and share
+                    their next appointment with you, or share the app so they can get started on their own.
+                </p>
+            </div>
+            <div class="some-img-area">
+                <img src="img/some.jpg" alt="some">
+            </div>
+        </div>
+    </section>
+    <section class="stay-in-touch clearfix">
+        <div class="container">
+            <div class="stay-content-form">
+                <h3 class="h3 wow slideInLeft">Stay in touch</h3>
+                <form action="#">
+                    <input class="inpt-email" type="email" placeholder="Email Address">
+                    <input class="inpt-sbmt" type="submit" value="subscribe">
+                </form>
+                <div class="hero-content">
+                    <h2 class="wow slideInLeft">Download Now for Free</h2>
+                    <div class="btn-img">
+                        <a href="#"><img src="img/apple.svg" alt="apple" class="apple"></a>
+                        <a href="#"><img src="img/googleplay.svg" alt="gp" class="googlepl"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="stay-img">
+                <img src="img/last.png" alt="last">
+            </div>
+
+        </div>
+
+    </section>
+    <section class="last-part clearfix">
+        <div class="container clearfix">
+            <div class="med-last clearfix">
+                <div class="logo-last">
+                    <img src="img/med-last.svg" alt="logo">
+                </div>
+                <div class="lastulli">
+                    <ul>
+                        <li><a href="#">TERMS AND CONDITIONS</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer-area clearfix">
+        <div class="container">
+            <div class="footer-icon">
+                <span><i class="fab fa-facebook-f"></i></span>
+                <span><i class="fab fa-twitter"></i></span>
+                <span><i class="fab fa-google"></i></span>
+                <span><i class="fab fa-linkedin-in"></i></span>
+
+
+            </div>
+            <div class="copyright">
+                <p>&copy; 2021 shaikot ahmed asif</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/jquery.sticky-nav.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

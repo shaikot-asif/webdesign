@@ -1,0 +1,533 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media screen and (max-width: 1300px) {
+    .slick-prev.slick-arrow {
+        left: -14px;
+    }
+    .slick-next.slick-arrow {
+        right: -107rem;
+    }
+    html {
+        font-size: 60.5%;
+    }
+    .people-saying .slick-prev.slick-arrow {
+        left: -3rem;
+    }
+    .people-saying .slick-next.slick-arrow {
+        right: -111rem;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .slick-prev.slick-arrow {
+        display: none !important;
+    }
+    .slick-next.slick-arrow {
+        display: none !important;
+    }
+    .people-saying .slick-prev.slick-arrow {
+        display: none !important;
+    }
+    .people-saying .slick-next.slick-arrow {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .container {
+        padding: 0 3rem;
+    }
+    .slider-logo {
+        margin-left: inherit;
+    }
+    .slider-cntnt p {
+        margin-left: inherit;
+    }
+    .slider-cntnt a {
+        margin-left: inherit;
+    }
+    .slick-dots {
+        bottom: -55px !important;
+    }
+    html {
+        font-size: 55.5%;
+    }
+    .thomas-video iframe {
+        height: 30rem;
+    }
+    .thomas-video {
+        height: 30rem;
+    }
+    .thomas-video img {
+        top: -30rem;
+        height: 100%;
+    }
+    .stay-img {
+        margin-left: 17.8rem;
+    }
+    .stay-img img {
+        width: 100%;
+    }
+    .medcorder .img-area img {
+        width: 95%;
+    }
+    .keep-img-area img {
+        width: 95%;
+    }
+    .appointment-video video {
+        width: 95rem;
+        left: -23rem;
+    }
+    .record-img img {
+        width: 95%;
+    }
+    .some-img-area {
+        width: 45%;
+    }
+    .stay-img {
+        margin-left: 12.8rem;
+        width: 35%;
+    }
+    .stay-content-form .inpt-email {
+        width: 32rem;
+    }
+}
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 50.5%;
+    }
+    .main-nav {
+        display: none;
+    }
+    .mobile-menu .bars i {
+        display: block;
+        cursor: pointer;
+        margin-top: 0.7rem;
+    }
+    .slick-dots li button::before {
+        top: 1px;
+        left: 1px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 2rem;
+    }
+    h1 {
+        font-size: 5.2rem;
+    }
+    html {
+        font-size: 45.5%;
+    }
+    .span_1_of_2 {
+        width: 100%;
+    }
+    .hero-content {
+        text-align: center;
+    }
+    .col {
+        margin: 0;
+        float: none;
+    }
+    .col.span_1_of_2.hero-img {
+        width: 70%;
+        display: block;
+        margin: auto;
+        margin-top: 5rem !important;
+    }
+    #header-area {
+        padding-bottom: 10rem;
+    }
+    .slider-logo {
+        margin: auto;
+    }
+    .slider-cntnt p {
+        width: 100%;
+        text-align: center;
+    }
+    .slider-cntnt a {
+        margin: auto;
+    }
+    .h3 {
+        width: 100%;
+        text-align: center;
+    }
+    .mtext-area.col.span_1_of_2 {
+        width: 100%;
+    }
+    .mtext-area.col.span_1_of_2 p {
+        width: 100%;
+        text-align: center;
+    }
+    .img-area.col.span_1_of_2 {
+        width: 100%;
+        margin-top: 5rem;
+    }
+    .medcorder .img-area img {
+        width: 75%;
+        display: block;
+        margin: auto;
+    }
+    .col.span_1_of_2.wid2 {
+        width: 100%;
+        position: relative;
+        top: -70rem;
+        margin-left: 0;
+    }
+    .col.span_1_of_2.wid {
+        width: 100%;
+        position: relative;
+        top: 35rem;
+    }
+    .keep-img-area {
+        max-width: 70%;
+        display: block;
+        margin: auto;
+    }
+    .keep-img-area img {
+        width: 85%;
+        display: block;
+        margin: auto;
+    }
+    .keep-content h3 {
+        width: 100%;
+        text-align: center;
+    }
+    .keep-content {
+        margin-top: 3rem;
+        text-align: center;
+        padding-top: 4rem;
+    }
+    #fk {
+        padding-bottom: 4rem;
+    }
+    .appointment-content h2 {
+        text-align: center;
+    }
+    .appointment-content p {
+        width: 100%;
+    }
+    .appointment-video video {
+        left: 0;
+        top: 0;
+    }
+    .thomas-content {
+        margin-top: 0;
+        text-align: center;
+    }
+    .little-description.br {
+        margin-top: 0;
+    }
+    .thomas-content p {
+        width: 100%;
+    }
+    .thomas-video {
+        width: 60%;
+        display: block;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 5rem;
+    }
+    .record-img {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+    .record-content {
+        padding-left: 0;
+        text-align: center;
+    }
+    .record-content p {
+        width: 100%;
+    }
+    .record-content h2 {
+        text-align: center;
+    }
+    .all-card.clearfix .col {
+        float: left;
+    }
+    .single-card.col.span_1_of_3 {
+        width: 49.2%;
+    }
+    .single-card.col.span_1_of_3:nth-child(4) {
+        margin-left: 0;
+        margin-top: 5rem;
+    }
+    .single-card.col.span_1_of_3:nth-child(3) {
+        margin-top: 5rem;
+    }
+    .single-card.col.span_1_of_3:nth-child(5) {
+        margin-top: 5rem;
+        width: 100%;
+    }
+    .some-going.clearfix .text-area {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .some-going.clearfix .text-area p {
+        max-width: 100%;
+    }
+    .some-going.clearfix .text-area h2 {
+        text-align: center;
+    }
+    .some-img-area {
+        width: 55%;
+        display: block;
+        margin: auto;
+        float: none;
+        margin-top: 5rem;
+    }
+    .stay-content-form {
+        float: none;
+        max-width: 61%;
+        display: block;
+        margin: auto;
+    }
+    .stay-content-form h3 {
+        text-align: left;
+    }
+    .stay-content-form .hero-content {
+        text-align: left;
+    }
+    .stay-img {
+        margin-left: 0;
+        width: 40%;
+        display: block;
+        margin: auto;
+        float: none;
+    }
+    .stay-in-touch {
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .single-card.col.span_1_of_3 {
+        width: 100%;
+    }
+    .single-card.col.span_1_of_3:nth-child(2) {
+        margin-top: 5rem;
+    }
+    .slider-cntnt a {
+        width: 15rem;
+    }
+    #fk h2 {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 715px) {
+    .col.span_1_of_2.wid {
+        top: 37rem;
+    }
+    .col.span_1_of_2.wid2 {
+        top: -60rem;
+    }
+}
+@media screen and (max-width: 615px) {
+    .col.span_1_of_2.wid {
+        top: 47rem;
+    }
+    .col.span_1_of_2.wid2 {
+        top: -54rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    .col.span_1_of_2.wid2 {
+        top: -51rem;
+    }
+    .col.span_1_of_2.wid {
+        top: 47rem;
+    }
+    .appointment-video video {
+        position: inherit;
+        width: 100%;
+        margin-top: 5rem;
+    }
+    .h3 {
+        font-size: 4rem !important;
+    }
+    .h2 {
+        font-size: 4rem !important;
+    }
+    .col.span_1_of_2.wid2 {
+        top: -47rem;
+    }
+    .col.span_1_of_2.wid {
+        top: 40rem;
+    }
+    section {
+        padding: 4rem 0;
+    }
+    .keep-content {
+        margin-top: 0;
+        padding-top: 5rem;
+    }
+    .mtext-area.col.span_1_of_2 {
+        margin-top: 3rem;
+    }
+    .keep-content {
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .keepinner.clearfix {
+        padding-top: 0;
+        height: 92vh;
+        padding-bottom: 0;
+    }
+    .col.span_1_of_2.wid {
+        top: 40rem;
+    }
+    .col.span_1_of_2.wid2 {
+        top: -45rem;
+    }
+    .stay-content-form {
+        max-width: 100%;
+        margin-bottom: 3rem;
+    }
+    #header-area {
+        padding-bottom: 5rem;
+    }
+    .logo-last {
+        float: none;
+        display: none;
+    }
+    .lastulli ul {
+        overflow: hidden;
+        width: 100%;
+    }
+    .lastulli {
+        float: none;
+    }
+}
+@media screen and (max-width: 490px) {
+    .col.span_1_of_2.wid {
+        top: 45rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .col.span_1_of_2.wid2 {
+        top: -35rem;
+    }
+    .col.span_1_of_2.wid {
+        top: 45rem;
+    }
+    .keepinner.clearfix {
+        height: 85vh;
+    }
+}
+@media screen and (max-width: 420px) {
+    .col.span_1_of_2.wid {
+        top: 47rem;
+    }
+    .keep-img-area img {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .keepinner.clearfix {
+        height: 100vh;
+    }
+    .col.span_1_of_2.wid {
+        top: 48rem;
+    }
+    .keep-img-area img {
+        width: 100%;
+    }
+    .col.span_1_of_2.wid2 {
+        top: -38rem;
+    }
+    .h3 {
+        font-size: 3.5rem !important;
+    }
+    .h4 {
+        font-size: 3.5rem !important;
+    }
+    .stay-content-form .inpt-sbmt {
+        font-size: 1.6rem;
+    }
+    .stay-content-form .inpt-email {
+        width: 25rem;
+    }
+    .lastulli li {
+        margin-left: 1rem;
+    }
+    .lastulli li:first-child {
+        margin-left: 0;
+    }
+    .some-going.clearfix {
+        padding-bottom: 5rem;
+    }
+    .some-img-area {
+        width: 65%;
+    }
+    .ok .col {
+        margin-top: 4rem;
+    }
+    .record-img {
+        width: 65%;
+    }
+    .common-qus h2 {
+        margin-bottom: 1rem;
+    }
+    .thomas-video {
+        width: 85%;
+        height: 23rem;
+    }
+    .thomas-video iframe {
+        height: 23rem;
+    }
+    .thomas-video img {
+        top: -23rem;
+    }
+    .appointment-content h2 {
+        text-align: left;
+    }
+    .medcorder .img-area img {
+        width: 80%;
+    }
+    .col.span_1_of_2.hero-img {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 370px) {
+    .col.span_1_of_2.wid2 {
+        top: -37rem;
+    }
+    .col.span_1_of_2.wid {
+        top: 48rem;
+    }
+    .keep-img-area {
+        max-width: 75%;
+    }
+    .keepinner.clearfix {
+        height: 95vh;
+    }
+}
+@media screen and (max-width: 335px) {
+    .col.span_1_of_2.wid {
+        top: 52rem;
+    }
+    .col.span_1_of_2.wid2 {
+        top: -32rem;
+    }
+    .keep-img-area {
+        max-width: 80%;
+    }
+    .keep-img-area img {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .keep-img-area img {
+        width: 95%;
+    }
+    .col.span_1_of_2.wid {
+        top: 56rem;
+    }
+    .col.span_1_of_2.wid2 {
+        top: -30rem;
+    }
+}
