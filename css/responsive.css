@@ -188,7 +188,7 @@
         margin: auto;
     }
     .keep-img-area img {
-        width: 85%;
+        width: 90%;
         display: block;
         margin: auto;
     }
@@ -374,14 +374,14 @@
     }
     .keepinner.clearfix {
         padding-top: 0;
-        height: 66vh;
+        height: 63vh;
         padding-bottom: 0;
     }
     .col.span_1_of_2.wid {
-        top: 40rem;
+        top: 43rem;
     }
     .col.span_1_of_2.wid2 {
-        top: -45rem;
+        top: -44rem;
     }
     .stay-content-form {
         max-width: 100%;
@@ -409,7 +409,7 @@
 }
 @media screen and (max-width: 450px) {
     .col.span_1_of_2.wid2 {
-        top: -35rem;
+        top: -39rem;
     }
     .col.span_1_of_2.wid {
         top: 45rem;
@@ -437,7 +437,7 @@
         width: 100%;
     }
     .col.span_1_of_2.wid2 {
-        top: -38rem;
+        top: -36rem;
     }
     .h3 {
         font-size: 3.5rem !important;
