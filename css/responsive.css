@@ -1,9 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
 
 @media screen and (max-width: 1300px) {
     .slick-prev.slick-arrow {
@@ -327,19 +321,26 @@
     }
 }
 @media screen and (max-width: 615px) {
-    .col.span_1_of_2.wid {
-        top: 47rem;
+    .keep-img-area {
+        max-width: 65%;
     }
     .col.span_1_of_2.wid2 {
-        top: -54rem;
+        top: -60rem;
+    }
+    .col.span_1_of_2.wid {
+        top: 40rem;
     }
 }
 @media screen and (max-width: 576px) {
+
+    .keepinner.clearfix {
+        height: 65vh !important;
+    }
     .col.span_1_of_2.wid2 {
-        top: -51rem;
+        top: -45rem;
     }
     .col.span_1_of_2.wid {
-        top: 47rem;
+        top: 39rem;
     }
     .appointment-video video {
         position: inherit;
@@ -418,12 +419,15 @@
         height: 61vh;
     }
 }
-@media screen and (max-width: 420px) {
-    .col.span_1_of_2.wid {
-        top: 47rem;
+@media screen and (max-width: 430px) {
+    .col.span_1_of_2.wid2 {
+        top: -36rem;
     }
-    .keep-img-area img {
-        width: 90%;
+    .col.span_1_of_2.wid {
+        top: 50rem;
+    }
+    .keep-img-area {
+        max-width: 70%;
     }
 }
 @media screen and (max-width: 400px) {
